@@ -6,5 +6,6 @@ if [ -z "$(ls -A /home/root/my-movies/)" ]; then
 fi
 
 npm i
+yarn start
 
 exit 0
