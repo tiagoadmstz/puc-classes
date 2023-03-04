@@ -5,4 +5,6 @@ if [ -z "$(ls -A /home/root/my-movies/)" ]; then
   npm i react-router-dom styled-components axios yarn nodemon
 fi
 
+npm i
+
 exit 0
