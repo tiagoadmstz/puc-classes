@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  front:
+    build: .
+    container_name: my-movies-modular
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ../my-movies-modular/:/home/root/my-movies-modular/:rw
